@@ -1,0 +1,14 @@
+wget \
+     --recursive \
+     --no-clobber \
+     --page-requisites \
+     --html-extension \
+     --convert-links \
+     --restrict-file-names=unix \
+     --domains amazonaws.com \
+     --random-wait \
+     --limit-rate=2M \
+     --user-agent=Mozilla \
+     --level=15 \
+     --no-parent \
+     https://static-course-assets.s3.amazonaws.com/RSE6/en/index.html#6 &
